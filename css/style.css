@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+
+ #inicio{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;    
+ }
+
+
+#texto-header{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#inicio #field-nav{
+    padding: 10px 0px;
+}
+
+#inicio #field-nav nav{
+    width: 100%;
+}
+
+#inicio #field-nav nav ul{
+    margin: 0px;
+    text-align: end;
+}
+
+#inicio #field-nav nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    transform: scale(1.2,1.2);
+}
+
+nav ul li:hover a{
+    color: rgb(8, 39, 125);
+}
+
+.caja-header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px !important;
+}
+
+.caja-header img{
+    width: 100%;
+    height: 700px;
+}
+
+.caja-header input{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 30%;
+    padding: 10px 10px;
+    background-color: rgba(211, 247, 235, 0.562);
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.caja-header h1{
+    position: absolute;
+    color: rgba(31, 89, 197, 0.578);
+    font-size: 100px;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 24.5% 5%;
+    width: 90%;
+}
+
+.caja-header input:hover{
+    background-color: rgba(52, 87, 151, 0.562);
+    color: rgb(241, 241, 241);
+    border: 2px white groove;
+}
+
+#navTitle{
+    padding: 10px 0px;
+    background-color: rgba(255, 228, 196, 0.388);
+    border-radius: 10px;
+}
+
+#navTitle:hover{
+    background-color: rgba(255, 228, 196, 0.738);
+}
+
+#navTitle h1 a{
+    text-decoration: none;
+	color: rgba(235, 111, 28, 0.918);
+}
+
+#navTitle h1{
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#medicos{
+    background-image: url("https://img.freepik.com/vector-gratis/gradiente-acuarela-purpura-fondo-claro-bokeh_53876-95746.jpg?w=2000");
+    align-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#title-section{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#medicos #caja-medico{
+    padding: 30px;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(41, 41, 41, 0.068);
+    border-radius: 20px;
+    max-height: 343px !important;
+}
+
+#medicos #caja-medico:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(59, 66, 105, 0.068);
+}
+
+
+#medicos #caja-medico img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+#medicos #caja-medico h4{
+    font-size: 14px;
+}
+
+#medicos #caja-medico h3{
+    font-size: 18px;
+}
+
+#especialidades{
+    background-color: rgba(180, 240, 220, 0.575);
+}
+
+#registro{
+    background-color: rgba(160, 197, 233, 0.452); 
+}
+
+#section2{
+    background-color: rgba(180, 240, 190, 0.575);
+    height: auto;
+}
+
+#especialidades{
+    padding: 20px;
+}
+
+#especialidades #caja-especialidad{
+    padding: 10px;
+    border: 2px groove rgb(0, 255, 213);
+    background-color: rgba(88, 196, 196, 0.39);
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#especialidades #caja-especialidad h3{
+    font-size: 15px;
+}
+
+#especialidades #caja-especialidad span{
+    font-size: 13px;
+    padding: 10px;
+}
+
+#especialidades #caja-especialidad img{
+    height: 80px;
+}
+
+.ubicacion-caja {
+    text-align: center;
+    background-color: rgba(117, 243, 235, 0.352);
+    padding-bottom: 70px;
+}
+
+.ubicacion-caja #ubicacion frame  {
+    min-height: 90% !important;
+    min-width: 90% !important;
+}
+
+.ubicacion-caja h3{
+    padding-top: 8%;
+    color: rgb(48, 49, 49);
+    font-size: 50px;
+}
+
+.ubicacion-caja  #ubicacion{
+    height: 80%;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+#ubicacion-caja  #registroCita{
+    background-color: rgba(240, 255, 255, 0.39);
+    width: 70%;
+    margin-left: 50%;
+}
+
+#ubicacion-caja  #registroCita table{
+    position: absolute;
+    border: 2px chocolate solid;
+    color: azure;
+    margin-top: -30%;
+}
+
+.azul{
+    width: 100%;
+}
+
+.barra-lateral{
+    display: inline-block;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.testimonios-caja{
+    padding-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#caja-comentario{
+    display: inline-flex;
+    border: 1px groove rgba(0, 0, 255, 0.199);
+    padding: 20px;
+    margin-top: 2px;
+}
+
+#caja-comentario img{
+    border-radius: 50%;
+    border: 2px groove blue;
+    width: 100px;
+    height: 100px;
+}
+
+#caja-comentario p{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.barra-registro h1{
+    padding: 15% 0%;
+    width: 100%;
+    text-align: center;
+}
+
+#registroCita {
+    display: inline-flex;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    padding: 0px 10%;
+}
+
+#registroCita table{
+    width: 100%;
+}
+
+#registroCita input{
+    margin-left: 20px;
+}
+
+#registroCita table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#registroCita table input[type="text"]{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#registroCita table input[type="text"]:focus{
+  outline: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer{
+    background-color: rgba(3, 3, 3, 0.908);
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    color: rgb(196, 196, 196);
+    padding-bottom: 10px;
+}
+
+.footer #red{
+    display: inline-block;
+    align-items: center;
+    color: rgb(77, 76, 76);
+    margin: 10px;
+
+}
+
+.footer img{
+    height: 40px;
+    width: 40px;
+}
+
+.footer h4{
+    font-size: 14px ;
+}
+
+.footer h3{
+    font-size: 14px ;
+}
+
+@media (max-width: 780px) {
+    .caja-header input{
+        display: none;
+    }
+    
+    .caja-header h1{
+        display: none;
+    }
+
+    #inicio #field-nav nav ul{
+        margin: 0px;
+        text-align: center;
+    }
+
+    #inicio #field-nav nav ul {
+        padding: 0px;
+    }
+
+    #inicio #field-nav nav ul li{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: small;
+    }
+
+    
+.ubicacion-caja #ubicacion frame  {
+    height: 90% !important;
+    width: 90% !important;
+}
+
+}
